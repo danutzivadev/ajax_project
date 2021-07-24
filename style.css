@@ -1,0 +1,64 @@
+body {
+    background-color: blue;
+}
+
+.background {
+    position:absolute;
+    left: 2%;
+    right: 2%;
+    top: 3%;
+    bottom: 3%;
+    background: linear-gradient(180deg, #FCB58E 0%, rgba(154, 17, 132, 0.691667) 62.5%, #4C88AA 81.25%);
+}
+
+.img-menu {
+    position:absolute;
+    background:blueviolet;
+    left: 2%;
+    right: 77%;
+    top: 3%;
+    bottom: 3%;
+}
+
+.img {
+    position: relative;
+    height: 50%;
+    background-size: cover;
+    background: url(res/DNZ_under1mb.png) no-repeat center;
+    width: 100%;
+    border-radius: 5%;
+
+}
+
+.menu {
+    position: relative;
+    background-color: rgb(46, 21, 21);
+    height: 50%;
+}
+
+.content {
+    position: relative;
+    background-color: rgb(251, 255, 42);
+    height: 92%;
+    width: 73%;
+    left: 25%;
+   
+}
+
+#b1, #b2, #b3, #b4, #b5 {
+    display: flex;
+    position: relative;
+    margin: auto;
+    top:25%;
+}
+
+h1 {
+left: 50%;
+text-align: right;
+margin-right: 3%;
+padding-top: 1%;
+}
+
+.educatieFormare, .experientaProfesionala, .competenteDigitale, .contact {
+    display: none;
+}
